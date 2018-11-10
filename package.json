@@ -1,0 +1,22 @@
+{
+  "name": "html-css-scss--starter-kit-",
+  "version": "1.0.0",
+  "description": "- Html &amp; Css StarterKit - 7-in-1 Folder Concept Used - Can be used for creating own 3 party package like boostrap, materialise, semantic ui - To compile SASS into CSS use the command =>  : npm run compile:sass - Initailised with Basic styling.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manisha1896/html-css-scss--starter-kit-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manisha1896/html-css-scss--starter-kit-/issues"
+  },
+  "homepage": "https://github.com/manisha1896/html-css-scss--starter-kit-#readme",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
