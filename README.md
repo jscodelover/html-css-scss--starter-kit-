@@ -5,6 +5,8 @@
 - To compile SASS into CSS use the command => 
   npm run compile:sass
 - Initailised with Basic styling.
+- Grid layout is specified upto 4 cloumns.
+- Utilities file is initialise with two declarations.
 
 
 ### 7-in-1 Folder Structure
@@ -33,3 +35,4 @@
 │   ├── vendor                Folder 7 ( contain vendor styling like boostrap scss, materialise css) 
 └── main.scss                # file only contant import statements
 ```
+Some Empty folder contain .gitkeep folder which you can remove, it is included only for commiting empty folder.
