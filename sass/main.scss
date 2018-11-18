@@ -1,8 +1,10 @@
 @import "abstract/variables";
 @import "abstract/functions";
-@import "abstract/mixin";
+@import "abstract/mixins";
 
 @import "base/base";
 @import "base/animations";
 @import "base/topography";
 @import "base/utilities";
+
+@import "layouts/grid";

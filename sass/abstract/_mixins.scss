@@ -1,0 +1,19 @@
+@mixin clearfix {
+  &::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin grid($num-cols) {
+  @for $i from 1 through ($num-cols - 1) {
+    .col-#{$i}-of-#{$num-cols} {
+      width: calc(
+        #{$i} *
+          ((100% - (#{$num-cols} - 1) *#{$horizontal-gutter}) / #{$num-cols}) +
+          (#{$i} - 1) *#{$horizontal-gutter}
+      );
+    }
+  }
+}
